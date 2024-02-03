@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/lucasbsand/news-homepage/](https://github.com/lucasbsand/news-homepage/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://news-homepage-navy-pi.vercel.app/](https://news-homepage-navy-pi.vercel.app/)
 
 ## My process
 
