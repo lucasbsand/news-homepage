@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <header>
+      <img src="assets/images/logo.svg" alt="logo" />
+      <button class="menu-btn" data-btn="open">
+        <img src="assets/images/icon-menu.svg" alt="menu" />
+      </button>
+      <nav class="nav-bar" data-menu="menu">
+        <ul class="link-list">
+          <li class="close">
+            <button class="menu-btn" data-btn="close">
+              <img src="assets/images/icon-menu-close.svg" alt="menu" />
+            </button>
+          </li>
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#">New</a></li>
+          <li><a class="nav-link" href="#">Popular</a></li>
+          <li><a class="nav-link" href="#">Trending</a></li>
+          <li><a class="nav-link" href="#">Categories</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <figure class="image-container">
+        <img
+          srcset="
+            assets/images/image-web-3-mobile.jpg  425w,
+            assets/images/image-web-3-desktop.jpg 768w
+          "
+          sizes="(max-width: 425px) 100%, 100%"
+          alt="Image Web 3"
+        />
+      </figure>
+      <h1 class="title">The Bright Future of Web 3.0?</h1>
+      <div class="read-more-container">
+        <p>
+          We dive into the next evolution of the web that claims to put the
+          power of the platforms back into the hands of the people. But is it
+          really fulfilling its promise?
+        </p>
+        <a class="read-more" href="#">READ MORE</a>
+      </div>
+    </main>
+
+    <aside>
+      <h2 class="new-title">New</h2>
+      <div class="article-container">
+        <article class="new-article">
+          <h3><a href="#">Hydrogen VS Electric Cars</a></h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </article>
+        <article class="new-article">
+          <h3><a href="#">The Downsides of AI Artistry</a></h3>
+          <p>
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+        </article>
+        <article class="new-article">
+          <h3><a href="#">Is VC Funding Drying Up?</a></h3>
+          <p>
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </article>
+      </div>
+    </aside>
+
+    <footer>
+      <article class="footer-articles">
+        <figure class="footer-image-container">
+          <img src="assets/images/image-retro-pcs.jpg" alt="retro pcs" />
+        </figure>
+        <div class="footer-text">
+          <h2 class="footer-title">01</h2>
+          <h4><a href="#" class="footer-subtitle">Reviving Retro PCs</a></h4>
+          <p class="footer-paragraph">
+            What happens when old PCs are given modern upgrades?
+          </p>
+        </div>
+      </article>
+      <article class="footer-articles">
+        <figure class="footer-image-container">
+          <img src="assets/images/image-top-laptops.jpg" alt="top laptops" />
+        </figure>
+        <div class="footer-text">
+          <h2 class="footer-title">02</h2>
+          <h4>
+            <a href="#" class="footer-subtitle">Top 10 Laptops of 2022</a>
+          </h4>
+          <p class="footer-paragraph">
+            Our best picks for various needs and budgets.
+          </p>
+        </div>
+      </article>
+      <article class="footer-articles">
+        <figure class="footer-image-container">
+          <img src="assets/images/image-gaming-growth.jpg" alt="" />
+        </figure>
+        <div class="footer-text">
+          <h2 class="footer-title">03</h2>
+          <h4><a href="#" class="footer-subtitle">The Growth of Gaming</a></h4>
+          <p class="footer-paragraph">
+            How the pandemic has sparked fresh opportunities.
+          </p>
+        </div>
+      </article>
+    </footer>
+
+    <script type="module" src="js/index.js"></script>
+  </body>
+</html>
